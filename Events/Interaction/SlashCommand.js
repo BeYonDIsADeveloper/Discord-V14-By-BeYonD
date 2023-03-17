@@ -12,7 +12,7 @@ module.exports = {
         const command = client.commands.get(interaction.commandName);
         if(!command) return interaction.reply({content: "This Command Is Outdated", ephemeral : true});
 
-        if(command.developer && interaction.user.id !== "974649021320790026")
+        if(command.developer && interaction.user.id !== "Your Discord Id Here")
         return interaction.reply({content: "This Command is only available to developer.", ephemeral: true});
         
 
